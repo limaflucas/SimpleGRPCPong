@@ -1,4 +1,4 @@
-package br.com.limaflucas.simple_grpc_ping;
+package br.com.limaflucas.simple_grpc_pong;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

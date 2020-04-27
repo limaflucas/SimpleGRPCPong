@@ -1,4 +1,4 @@
-package br.com.limaflucas.simple_grpc_ping;
+package br.com.limaflucas.simple_grpc_pong;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

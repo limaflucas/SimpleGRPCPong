@@ -1,4 +1,4 @@
-package br.com.limaflucas.simple_grpc_ping;
+package br.com.limaflucas.simple_grpc_pong;
 
 import br.com.limaflucas.grpc.PingRequest;
 import br.com.limaflucas.grpc.PingResponse;
