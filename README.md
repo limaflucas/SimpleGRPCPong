@@ -1,1 +1,1 @@
-# SimpleGRPCPing
+# SimpleGRPCPong
