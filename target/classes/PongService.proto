@@ -2,16 +2,16 @@ syntax = "proto3";
 option java_multiple_files = true;
 package br.com.limaflucas.grpc;
 
-message PingRequest {
+message PongRequest {
    string requestMessage = 1;
    string requestTime = 2;
 }
 
-message PingResponse {
+message PongResponse {
    string responseMessage = 1;
    string responseTime = 2;
 }
 
-service PingService {
-   rpc ping(PingRequest) returns (PingResponse);
+service PongService {
+   rpc pong(PongRequest) returns (PongResponse);
 }

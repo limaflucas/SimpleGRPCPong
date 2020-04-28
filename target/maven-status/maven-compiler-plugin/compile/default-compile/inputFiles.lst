@@ -1,8 +1,8 @@
-/home/lucas/Documents/workspace/SimpleGRPCPing/src/main/java/br/com/limaflucas/SimpleGRPCPing/SimpleGrpcPingApplication.java
-/home/lucas/Documents/workspace/SimpleGRPCPing/target/generated-sources/protobuf/java/br/com/limaflucas/grpc/PingRequest.java
-/home/lucas/Documents/workspace/SimpleGRPCPing/target/generated-sources/protobuf/java/br/com/limaflucas/grpc/PingResponseOrBuilder.java
-/home/lucas/Documents/workspace/SimpleGRPCPing/src/main/java/br/com/limaflucas/SimpleGRPCPing/PingServerImpl.java
-/home/lucas/Documents/workspace/SimpleGRPCPing/target/generated-sources/protobuf/java/br/com/limaflucas/grpc/PingRequestOrBuilder.java
-/home/lucas/Documents/workspace/SimpleGRPCPing/target/generated-sources/protobuf/java/br/com/limaflucas/grpc/PingResponse.java
-/home/lucas/Documents/workspace/SimpleGRPCPing/target/generated-sources/protobuf/grpc-java/br/com/limaflucas/grpc/PingServiceGrpc.java
-/home/lucas/Documents/workspace/SimpleGRPCPing/target/generated-sources/protobuf/java/br/com/limaflucas/grpc/PingServiceOuterClass.java
+/home/lucas/Documents/workspace/SimpleGRPCPong/target/generated-sources/protobuf/java/br/com/limaflucas/grpc/PongRequestOrBuilder.java
+/home/lucas/Documents/workspace/SimpleGRPCPong/target/generated-sources/protobuf/java/br/com/limaflucas/grpc/PongRequest.java
+/home/lucas/Documents/workspace/SimpleGRPCPong/target/generated-sources/protobuf/java/br/com/limaflucas/grpc/PongServiceOuterClass.java
+/home/lucas/Documents/workspace/SimpleGRPCPong/src/main/java/br/com/limaflucas/simple_grpc_pong/SimpleGrpcPongApplication.java
+/home/lucas/Documents/workspace/SimpleGRPCPong/target/generated-sources/protobuf/java/br/com/limaflucas/grpc/PongResponse.java
+/home/lucas/Documents/workspace/SimpleGRPCPong/target/generated-sources/protobuf/java/br/com/limaflucas/grpc/PongResponseOrBuilder.java
+/home/lucas/Documents/workspace/SimpleGRPCPong/target/generated-sources/protobuf/grpc-java/br/com/limaflucas/grpc/PongServiceGrpc.java
+/home/lucas/Documents/workspace/SimpleGRPCPong/src/main/java/br/com/limaflucas/simple_grpc_pong/PongServerImpl.java

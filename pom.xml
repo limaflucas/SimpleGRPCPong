@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.limaflucas</groupId>
-	<artifactId>SimpleGRPCPing</artifactId>
+	<artifactId>SimpleGRPCPong</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SimpleGRPCPing</name>
+	<name>SimpleGRPCPong</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

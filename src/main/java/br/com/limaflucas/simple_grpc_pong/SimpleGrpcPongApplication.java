@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SimpleGrpcPingApplication {
+public class SimpleGrpcPongApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SimpleGrpcPingApplication.class, args);
+		SpringApplication.run(SimpleGrpcPongApplication.class, args);
 	}
 
 }

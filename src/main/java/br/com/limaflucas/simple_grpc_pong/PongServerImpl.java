@@ -1,27 +1,27 @@
 package br.com.limaflucas.simple_grpc_pong;
 
-import br.com.limaflucas.grpc.PingRequest;
-import br.com.limaflucas.grpc.PingResponse;
-import br.com.limaflucas.grpc.PingServiceGrpc;
+import br.com.limaflucas.grpc.PongRequest;
+import br.com.limaflucas.grpc.PongResponse;
+import br.com.limaflucas.grpc.PongServiceGrpc;
 import io.grpc.stub.StreamObserver;
 import org.lognet.springboot.grpc.GRpcService;
 
 import java.time.LocalDateTime;
 
 @GRpcService
-public class PingServerImpl extends PingServiceGrpc.PingServiceImplBase {
+public class PongServerImpl extends PongServiceGrpc.PongServiceImplBase {
 
     @Override
-    public void ping(PingRequest request, StreamObserver<PingResponse> responseObserver) {
-        if (request.getRequestMessage().equalsIgnoreCase("ping")) {
-            responseObserver.onNext(PingResponse.newBuilder()
+    public void pong(PongRequest request, StreamObserver<PongResponse> responseObserver) {
+
+        if (request.getRequestMessage().equalsIgnoreCase("ping"))
+            responseObserver.onNext(PongResponse.newBuilder()
                     .setResponseMessage("PONG!")
                     .setResponseTime(LocalDateTime.now().toString())
                     .build());
-            responseObserver.onCompleted();
-        }
         else
-            responseObserver.onError(new Exception("Invalid request"));
+            responseObserver.onNext(PongResponse.newBuilder().setResponseMessage("Naaaaah! I c wyd...").build());
 
+        responseObserver.onCompleted();
     }
 }
